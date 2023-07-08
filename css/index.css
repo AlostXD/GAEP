@@ -1,0 +1,97 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--p-color);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#logo {
+    max-width: 150px;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar-menu-item {
+    list-style: none;
+}
+
+.navbar-menu-item a {
+    text-decoration: none;
+    color: var(--p-t-color);    
+}
+
+
+
+
+.bemvindos {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.inicio {
+    margin: 50px 0px;
+}
+
+
+
+
+.comandos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cracha {
+    background-color: var(--s-color);
+}
+
+.diogo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.diogo img {
+    max-width: 300px;
+}
+
+.diogo .informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 14px 16px;
+}
+
+.diogo .contatos a {
+    text-decoration: none;
+    color: var(--p-t-color);
+    background-color: #222222;
+    padding: 12px 16px;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+}
+
+.diogo .contatos a:hover {
+    text-decoration: none;
+    color: rgb(93, 93, 238);
+
+}

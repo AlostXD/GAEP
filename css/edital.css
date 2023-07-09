@@ -22,3 +22,21 @@
 .text-edital p {
     word-break: normal;
 }
+
+#btn-edital {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: var(--p-color);
+    color: #fff;
+    transition: all 0.5s ease;
+    border-radius: 12px;
+    padding: 12px 16px;
+}
+
+#btn-edital:hover {
+    color: aqua;
+    transform: scale(1.15);
+}

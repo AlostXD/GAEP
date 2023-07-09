@@ -1,0 +1,24 @@
+.edital {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+    padding: 26px;
+}
+
+
+.conteudo-edital {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 650px;
+}
+
+#logo-edital {
+    max-width: 300px;
+}
+
+.text-edital p {
+    word-break: normal;
+}

@@ -58,10 +58,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .cracha {
     background-color: var(--s-color);
+    border-radius: 12px;
 }
 
 .diogo {
@@ -93,5 +96,16 @@ header {
 .diogo .contatos a:hover {
     text-decoration: none;
     color: rgb(93, 93, 238);
+}
 
+footer {
+    background-color: var(--p-color);
+    text-align: center;
+    padding: 12px;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(93, 93, 238);
 }

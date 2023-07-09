@@ -1,0 +1,13 @@
+.manual {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.acompanhamentos {
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+}
